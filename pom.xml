@@ -61,9 +61,9 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>http://sonarqube-pkr-demo.apps.ocp4.imss.com/</sonar.host.url>
-	       <sonar.login>sqa_6bb090a174c8fb26ea048646dfb8f46108a1480b</sonar.login>
-               <sonar.projectName>ci-pipeline</sonar.projectName>
+               <sonar.host.url>https://sonar-ocp.apps.ocp4.imss.com/</sonar.host.url>
+	       <sonar.login>sqa_6fbf0fac5eb2106add9cecdbe0043e19da71236a</sonar.login>
+               <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
@@ -98,16 +98,4 @@
             </build>
         </profile>
     </profiles>
-<distributionManagement>
-    <snapshotRepository>
-      <id>nexusdeploymentrepo</id>
-      <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
-    </snapshotRepository>
-	<repository>
-	  <id>nexusdeploymentrepo</id>
-      <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
-    </repository>
-  
-  </distributionManagement>
-
 </project>
