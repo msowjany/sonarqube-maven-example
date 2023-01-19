@@ -62,7 +62,7 @@
             </activation>
             <properties>
                <sonar.host.url>https://sonar-ocp.apps.ocp4.imss.com</sonar.host.url>
-	       <sonar.login>sqa_6fbf0fac5eb2106add9cecdbe0043e19da71236a</sonar.login>
+	       <sonar.login>sqa_e655476db2c6e88cd833bae65bfdf4464d985f9d</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
